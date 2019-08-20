@@ -275,8 +275,8 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: absolute;
   width: 100%;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px;
+  
   background: rgba(255, 255, 255, 0.9);  }
   .site-navbar .site-logo {
     position: relative;
@@ -1220,6 +1220,18 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 9; }
 
+  .unit-3 {
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px -5px rgb(2, 185, 161);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    position: relative;
+    top: 0; }
+
+
 .unit-4 {
   padding: 30px;
   background: #fff;
@@ -1812,6 +1824,16 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 15px -2px rgba(0, 0, 0, 0.1); }
 
+.h4 {
+text-align: center;
+color: #000;
+  font-size: 30px;
+  font-weight: 900; }
+  @media (max-width: 991.98px) {
+    .section-title {
+      font-size: 20px; } }
+
+
 .h-entry h2 a {
   color: #000;
   font-size: 30px; }
@@ -1819,10 +1841,16 @@ h1, h2, h3, h4, h5,
   .fluid-width-video-wrapper {
     width: 100%;
     position: relative;
-    
-  
-    
+        
 }
+
+.p-sb {
+  text-align: center;
+  color: #000;
+    font-size: 15px;
+    font-weight: 500; }
+
+
 @media (max-width: 991.98px) {
   .site-logo {
     top: 0; } }
